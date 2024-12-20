@@ -153,6 +153,10 @@
     <ClInclude Include="src\Unbaked\Application.h" />
     <ClInclude Include="src\Unbaked\Core.h" />
     <ClInclude Include="src\Unbaked\EntryPoint.h" />
+    <ClInclude Include="src\Unbaked\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Unbaked\Events\Event.h" />
+    <ClInclude Include="src\Unbaked\Events\KeyEvent.h" />
+    <ClInclude Include="src\Unbaked\Events\MouseEvent.h" />
     <ClInclude Include="src\Unbaked\Log.h" />
   </ItemGroup>
   <ItemGroup>

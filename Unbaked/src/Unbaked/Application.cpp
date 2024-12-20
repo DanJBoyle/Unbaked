@@ -1,5 +1,9 @@
 #include "Application.h"
 
+#include "Unbaked/Events/ApplicationEvent.h"
+#include "Unbaked/Log.h"
+
+
 namespace Unbaked {
 	Application::Application() {
 	}
@@ -8,6 +12,8 @@ namespace Unbaked {
 	}
 
 	void Application::Run() {
+		WindowResizeEvent e(1280, 720);
+		UB_TRACE(e.ToString());
 		while (true);
 	}
 }

@@ -4,6 +4,9 @@
     <Filter Include="Unbaked">
       <UniqueIdentifier>{5FA5919A-CB84-1036-D49C-9B0C40FB7697}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Unbaked\Events">
+      <UniqueIdentifier>{63B089D3-4F7E-7DD9-3812-EEFF247F593E}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Unbaked.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Unbaked\EntryPoint.h">
       <Filter>Unbaked</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Unbaked\Events\ApplicationEvent.h">
+      <Filter>Unbaked\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Unbaked\Events\Event.h">
+      <Filter>Unbaked\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Unbaked\Events\KeyEvent.h">
+      <Filter>Unbaked\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Unbaked\Events\MouseEvent.h">
+      <Filter>Unbaked\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Unbaked\Log.h">
       <Filter>Unbaked</Filter>

@@ -8,7 +8,6 @@ int main(int argc, char** argv) {
 	UB_CORE_WARN("Initialized Log!");
 	UB_INFO("Hello!");
 
-
 	auto app = Unbaked::CreateApplication();
 	app->Run();
 	delete app;
