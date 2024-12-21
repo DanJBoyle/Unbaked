@@ -2,8 +2,6 @@
 #include "spdlog/spdlog.h"
 #include "spdlog/fmt/ostr.h"
 
-#include <memory>
-
 namespace Unbaked {
 	class UNBAKED_API Log {
 
