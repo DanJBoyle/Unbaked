@@ -1,3 +1,6 @@
 [submodule "Unbaked/vendor/spdlog"]
 	path = Unbaked/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Unbaked/vendor/GLFW"]
+	path = Unbaked/vendor/GLFW
+	url = https://github.com/DanJBoyle/glfw
