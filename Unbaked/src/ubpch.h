@@ -1,14 +1,18 @@
+#pragma once
 #include <iostream>
 #include <memory>
 #include <utility>
 #include <algorithm>
 #include <functional>
-#include <sstream>
 
 #include <string>
+#include <sstream>
+#include <array>
 #include <vector>
 #include <unordered_map>
-#include <unordered_set>s
+#include <unordered_set>
+
+#include "Unbaked/Log.h"
 
 #ifdef UB_PLATFROM_WINDOWS
 	#include <Windows.h>

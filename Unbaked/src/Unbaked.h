@@ -1,5 +1,6 @@
 // For use by Unbaked applications
 
+#pragma once
 #include "Unbaked/Application.h"
 #include "Unbaked/Log.h"
 

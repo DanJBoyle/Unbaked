@@ -1,3 +1,4 @@
+#pragma once
 #include "Unbaked/Events/Event.h"
 #include <sstream>
 

@@ -1,3 +1,4 @@
+#pragma once
 #include "Unbaked/Core.h"
 
 #include <string>
